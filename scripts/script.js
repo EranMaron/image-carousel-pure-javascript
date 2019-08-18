@@ -31,7 +31,6 @@ let counter = 0;
 const size = 600;
 
 rightArrow.disabled = true;  
-leftArrow.disabled = true;  
 
 // Left arrow click handler
 leftArrow.addEventListener('click', () => {
