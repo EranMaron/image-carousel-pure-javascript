@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(42, 41, 43);
+}
+
+ul {
+    list-style: none;
+}
+
+.loading-msg {
+    position: absolute;
+    font-size: 100px;
+    color: rgb(146, 0, 122);
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+
+.carousel-container {
+    position: relative;
+    width: 600px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.carousel-slider {
+    display: flex;
+    position: relative;
+}
+
+.arrow-btn {
+    position: absolute;
+    font-size: 50px;
+    padding: 0;
+    background: transparent;
+    border: none;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.left-arrow {
+    left: 5px;
+}
+
+.right-arrow {
+    right: 5px;
+}
